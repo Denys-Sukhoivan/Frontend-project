@@ -3,10 +3,39 @@
     <title>RPG</title>
     <script src=https://code.jquery.com/jquery-3.6.0.min.js></script>
     <link href="/css/my.css" rel="stylesheet">
+    <script defer type="text/javascript" src="/html/script.js"></script>
+    <style> th {width: 90px;} </style>
 </head>
 <body>
 <h1>RPG admin panel</h1>
 <h2>Accounts list:</h2>
+
+    <table class="table-users">
+        <thead>
+            <tr class="row">
+                    <th class="header-cell cell_small">#</th>
+                    <th class="header-cell">Name</th>
+                    <th class="header-cell">Tittle</th>
+                    <th class="header-cell">Race</th>
+                    <th class="header-cell">Profession</th>
+                    <th class="header-cell">Level</th>
+                    <th class="header-cell">Birthday</th>
+                    <th class="header-cell">Banned</th>
+                    <th class="header-cell">Edit</th>
+                    <th class="header-cell">Delete</th>
+            </tr>
+
+        </thead>
+
+        <tbody class="user-table-body">
+
+        </tbody>
+</table>
+
+<div class="pagination-wrapper">
+    <span>Pages:</span>
+    <span class="pagination-buttons"></span>
+</div>
 
 </body>
 </html>

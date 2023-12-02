@@ -1,0 +1,30 @@
+.table-users {
+    border: 1px solid black;
+}
+
+.table-row-header {
+    border: 1px solid black;
+    min-width: 80px;
+    padding: 5px;
+}
+
+.header-cell {
+    border: 1px solid black;
+    min-width: 80px;
+    padding: 5px;
+}
+
+.user-table-body {
+    border: 1px solid black;
+    min-width: 80px;
+    padding: 5px;
+}
+
+.cell {
+    border: 1px solid;
+}
+
+.cell_small {
+    width: 40px;
+    min-width: auto;
+}
